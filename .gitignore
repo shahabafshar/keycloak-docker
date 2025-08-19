@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Secrets
+secrets/*.txt
+secrets/*.key
+secrets/*.pem
+
+# Docker volumes
+postgres_data/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db 
