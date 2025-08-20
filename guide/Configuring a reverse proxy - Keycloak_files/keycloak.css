@@ -1,0 +1,487 @@
+/* Common */
+
+:root {
+    --bs-primary-rgb: 66, 139, 202;
+}
+
+.no-top-margin {
+    margin-top: 0 !important;
+}
+
+.fs-xlarge {
+    font-size: 3.5rem;
+}
+
+.fs-xsmall {
+    font-size: 0.8rem;
+}
+
+.kc-table-downloads-inner {
+    width: 100%;
+}
+
+.kc-table-downloads-inner td {
+    width: 50%;
+}
+
+.kc-bg-triangles {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+}
+
+.kc-bg-fixed {
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover {
+    background-color: #326d9f;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #326d9f;
+}
+
+.nav-link {
+    color: #428bca;
+}
+
+/* Articles */
+
+.kc-article h1 {
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+.kc-article h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 2.0rem;
+}
+
+.kc-article h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 2.0rem;
+}
+
+.kc-article h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 2.0rem;
+}
+
+.kc-article h5 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-top: 1.25rem;
+}
+
+.kc-article img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d0d0d0;
+    max-width: 100%;
+}
+
+.kc-article code {
+    background-color: #efefef;
+    display: box;
+    padding: 3px 4px;
+}
+
+.kc-article pre {
+    display: block;
+    background-color: #efefef;
+    border: 1px solid #d0d0d0;
+    padding: 1rem;
+}
+
+.kc-article pre code {
+    padding: 0;
+}
+
+/* AsciiDoc generated pages */
+
+.kc-asciidoc li p {
+    margin-bottom: 0.5rem;
+}
+
+.kc-asciidoc table {
+    margin-bottom: 1.0rem;
+}
+
+.kc-asciidoc th {
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    background-color: #efefef;
+}
+
+.kc-asciidoc td {
+    vertical-align: top;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+}
+
+/* the last paragraph in a table cell should not add additional margin, as the td already has a padding */
+.kc-asciidoc td p:last-of-type {
+    margin-bottom: 0;
+}
+
+.kc-asciidoc div.title {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+/* Guide - Options */
+
+.guide-category {
+    border-radius: 0.5rem;
+    background-color: #EDEDED99;
+    padding: 1rem 0.5rem 0;
+}
+
+table.options {
+    width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    table.options {
+        margin-top: -3rem;
+    }
+}
+
+table.options table {
+    width: 100%;
+}
+
+table.options p {
+    margin: 0;
+}
+
+table.options tr {
+}
+
+table.options th {
+    padding: 1.0rem 0.5rem;
+    border: none;
+    background-color: transparent;
+}
+
+table.options td {
+    vertical-align: top;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+}
+
+table.options table td {
+    border: none;
+}
+
+table.options table td {
+    padding: 0;
+}
+
+table.options tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table.options table tr {
+    border-bottom: none;
+}
+
+table.options table tr:nth-child(even) {
+    background: none;
+}
+
+.options-key {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.options-expander {
+    padding-right: 0.3rem;
+    font-size: .7rem;
+}
+
+.options-description {
+    color: #6c757d;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.options-description-extended {
+    color: #6c757d;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.options-type {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 0.8rem;
+}
+
+.options-default {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 0.8rem;
+}
+
+.options-build {
+    color: #6c757d;
+}
+
+.options-collapsed .options-extended {
+    display: none;
+}
+
+.options-collapsed .options-description {
+    margin-bottom: 0;
+}
+
+.options-hide {
+    display: none;
+}
+
+/* tocbot */
+
+ol.toc-list {
+    padding-left: 0.5rem;
+}
+
+li.toc-list-item {
+    list-style: none;
+    padding-top: 0.5rem;
+}
+
+ol.toc-list .is-collapsed {
+    display: none;
+}
+
+/* Test application */
+
+@media only screen and (min-width: 1400px) {
+    .kc-app {
+        padding: 400px;
+    }
+}
+
+.kc-app a.hide {
+    display: none;
+}
+
+.kc-app a.show {
+    display: inline!important;
+}
+
+.kc-app div.hide {
+    display: none;
+}
+
+.kc-app div.show {
+    display: block;
+}
+
+/* Admonitions */
+
+.admonitionblock {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.admonitionblock>table {
+    border-collapse: separate;
+    border: 0;
+    width: 100%;
+}
+
+.admonitionblock>table td {
+    text-align: left;
+    border: 0;
+}
+
+.admonitionblock>table td.icon {
+    width: 4em;
+    text-align: center;
+}
+
+.admonitionblock>table td.icon [class^="fa icon-"] {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    color: #19417d;
+}
+
+.admonitionblock>table td.content {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    border-left: 1px solid #dddddf;
+}
+
+.admonitionblock>table td.icon .icon-warning::before {
+    content: "\f071";
+    color: #bf6900;
+}
+
+.admonitionblock>table td.icon .icon-note::before {
+    content: "\f05a";
+    color: #19407c;
+}
+
+.admonitionblock>table td.icon .icon-tip::before {
+    content: "\f0eb";
+    text-shadow: 1px 1px 2px rgb(155 155 0 / 80%);
+    color: #f4bb2c;
+}
+
+.admonitionblock td.icon .icon-warning::before {
+    content: "\f071";
+    color: #bf6900;
+}
+
+.admonitionblock>table td.icon .icon-caution::before {
+    content: "\f06d";
+    color: #bf3400;
+}
+
+.admonitionblock td.icon .icon-important::before {
+    content: "\f06a";
+    color: #bf0000;
+}
+
+.exampleblock > .content {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px
+}
+
+.exampleblock > .content > :first-child {
+    margin-top: 0
+}
+
+.exampleblock > .content > :last-child {
+    margin-bottom: 0
+}
+
+.exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child {
+    margin-bottom: 0
+}
+
+.exampleblock > .content {
+    background-color: #fffef7;
+    border-color: #e0e0dc;
+    -webkit-box-shadow: 0 1px 4px #e0e0dc;
+    box-shadow: 0 1px 4px #e0e0dc
+}
+
+dl dd {
+    margin-left: 1.125em;
+}
+
+/* allow callout numbers for listings - taken from the AsciiDoc stylesheet */
+.conum[data-value] {
+    display: inline-block;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, .8);
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: .75em;
+    width: 1.67em;
+    height: 1.67em;
+    line-height: 1.67em;
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold
+}
+
+.conum[data-value] * {
+    color: #fff !important
+}
+
+.conum[data-value] + b {
+    display: none
+}
+
+.conum[data-value]::after {
+    content: attr(data-value)
+}
+
+pre .conum[data-value] {
+    position: relative;
+    top: -.125em
+}
+
+b.conum * {
+    color: inherit !important
+}
+
+.conum:not([data-value]):empty {
+    display: none
+}
+
+.colist > table {
+    border: 0;
+    background: none
+}
+
+.colist > table > tbody > tr {
+    background: none
+}
+
+.literalblock + .colist, .listingblock + .colist {
+    margin-top: -.5em
+}
+
+.colist td:not([class]):first-child {
+    padding: .4em .75em 0;
+    line-height: 1;
+    vertical-align: top
+}
+
+.colist td:not([class]):first-child img {
+    max-width: none
+}
+
+.colist td:not([class]):last-child {
+    padding: .25em 0
+}
+
+.colist td {
+    border: 0
+}
+
+@media (prefers-contrast: more) {
+    .kc-bg-triangles {
+        background-image: none;
+    }
+}
+
+.card-title {
+    font-weight: 550;
+}
+
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
